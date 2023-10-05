@@ -42,7 +42,6 @@ const NavBar = () => {
                   <NavLink
                     to={route.path}
                     className="nav-link"
-                    activeClassName="active"
                   >
                     {route.text}
                   </NavLink>
